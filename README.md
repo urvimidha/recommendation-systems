@@ -5,6 +5,9 @@
 ## Collaborative Filtering
 There are several approaches to building a recommendation engine. However, we will focus on the collaborative filtering approach. The starting point for collaborative filtering is to have the past interactions between users and items stored in a sparse called the “user-item interaction matrix”. The assumption is that these past user-item interactions are sufficient to detect similar users and/or similar items, and make recommendations based on these computed proximities.
 
+![ratings_matrix (1)](https://user-images.githubusercontent.com/57900104/209997013-2e764e73-7b97-4c7d-ac3d-b5e2e0858bcd.jpg)
+
+
 Unlike some other techniques, the major advantage of collaborative filtering is that we do not need to know the content in detail. For instance, if you watch Harry Potter movies on Prime Video, it recommends you other movies that were viewed by people who also watched Harry Potter. In this approach, the recommender system may not even care about the genre, cast or director of the movie being suggested. It will simply recommend it because other people with similar tastes watched it.
 
 Collaborative filtering can be categorized into:
